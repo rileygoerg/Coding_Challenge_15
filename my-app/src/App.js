@@ -1,3 +1,4 @@
+// U14123683
 import React from 'react';
 import './App.css';
 
@@ -20,7 +21,7 @@ function App(){
   return (
   <div>
     <header>
-    <h1>Riley Goerg</h1>
+    <h1>Riley Goerg - U14123683</h1>
     <p>I'm a junior at USF majoring in Business Analytics and Information Systems. This is my "About Me" website.</p>
     <p>Email: rgoerg@gmail.com</p>
     <p>LinkedIn: linkedin.com/in/riley-goerg</p>
@@ -30,7 +31,7 @@ function App(){
       <h3>Skills</h3>
       <ol>
         {codingSkills.map(skill =>(
-          <li>{skill.name} - {skill.proficiency}</li>
+          <li>{skill.name}: {skill.proficiency}</li>
         ))}
       </ol>
     </section>
