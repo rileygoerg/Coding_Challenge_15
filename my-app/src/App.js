@@ -21,10 +21,11 @@ function App(){
   <div>
     <header>
     <h1>Riley Goerg</h1>
-    <p>I'm a junior at USF majoring in Business Analytics and Information Systems.</p>
-    <p>rgoerg@gmail.com</p>
-    <p>linkedin.com/in/riley-goerg</p>
+    <p>I'm a junior at USF majoring in Business Analytics and Information Systems. This is my "About Me" website.</p>
+    <p>Email: rgoerg@gmail.com</p>
+    <p>LinkedIn: linkedin.com/in/riley-goerg</p>
     </header>
+    <hr></hr>
     <section>
       <h3>Skills</h3>
       <ol>
@@ -33,6 +34,7 @@ function App(){
         ))}
       </ol>
     </section>
+        <hr></hr>
     <section>
       <h3>Work Experience</h3>
       <ol>
@@ -41,6 +43,7 @@ function App(){
         ))}
       </ol>
     </section>
+    <hr></hr>
     <section>
       <h3>Education</h3>
       <ol>
